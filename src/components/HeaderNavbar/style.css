@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para os itens da Navbar */
+.navItem {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    color: #333 !important;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Efeito hover */
+.navItem:hover {
+    border-bottom: 2px solid #FA9FAE;
+    color: #FA9FAE;
+}
+
+/* Remove o fundo azul no iPhone */
+.navItem:focus,
+.navItem:active {
+    outline: none !important;
+    background-color: transparent !important;
+    color: #333 !important;
+    -webkit-tap-highlight-color: transparent;
+}

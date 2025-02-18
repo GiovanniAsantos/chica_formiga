@@ -1,0 +1,73 @@
+.productsContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 50px;
+  }
+  
+  .productsTItle {
+    font-size: 27px;
+    font-family: Dancing Script, sans-serif;
+    color: #5A3D3D;
+    margin-bottom: 20px; 
+    text-align: center;
+  }
+  
+  .productsCardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+
+  .divCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .productsCard {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 10px;
+    border: 3px solid #FA9FAE;
+    background-color: antiquewhite;
+    color: #FA9FAE;
+    font-size: 16px;
+    box-shadow: 4px 4px 6px rgba(128, 128, 128, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 1rem;
+  }
+  
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .imgCard {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+  }
+  
+  .divNameCard {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .divTextCard {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .divStarsCard {
+    font-size: 1.2rem;
+    color: #ffa500;
+  }
+  

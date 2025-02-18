@@ -1,0 +1,16 @@
+.patternButton {
+    width: 10rem;
+    height: 3rem;
+    border: 3px solid #FA9FAE;
+    background-color: antiquewhite;
+    color: #FA9FAE;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 4px 4px 6px rgba(128, 128, 128, 0.6);
+}
+
+.patternButton:active {
+    box-shadow: none; 
+    transform: translateY(3px);
+}
