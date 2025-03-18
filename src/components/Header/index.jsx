@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import chicaLogoRemovebg from "../../../src/assets/chicaLogo-removebg.png";
 import ContactButtons from "../ContactButtons";
 import HeaderNavbar from "../HeaderNavbar";
 const Header = ({ heroRef, aboutUsRef, productsRef, clientsRef }) => {
@@ -27,7 +26,7 @@ const Header = ({ heroRef, aboutUsRef, productsRef, clientsRef }) => {
           <div style={{ alignSelf: "center" }}>
             <img
               style={{ height: "12rem", width: "12rem" }}
-              src={chicaLogoRemovebg}
+              src="/chicaLogo-removebg.png"
               alt="Logo"
             />
           </div>
