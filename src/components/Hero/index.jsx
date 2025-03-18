@@ -8,7 +8,7 @@ const Hero = () => {
         background:
           "url('https://www.transparenttextures.com/patterns/old-paper-4.png'), #FAF1E6", // Cor bege claro e textura de papel
         width: "100%",
-        height: "60vh",
+        height: "40vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

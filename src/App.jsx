@@ -6,6 +6,7 @@ import Clients from "./components/Clients";
 import Products from "./components/Products";
 import Footer from "./components/Footer";
 import "./styles/global.css"
+import Contacts from "./components/Contact";
 
 function App() {
   const heroRef = useRef(null);
@@ -33,6 +34,9 @@ function App() {
       </div>
       <div ref={productsRef}>
         <Products />
+      </div>
+      <div ref={productsRef}>
+        <Contacts />
       </div>
       <div ref={footerRef}>
         <Footer />
